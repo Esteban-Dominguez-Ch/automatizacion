@@ -87,7 +87,8 @@ en español (`@Dado`/`@Cuando`/`@Entonces`), y `RunCucumberTest.java` como runne
 correr `mvn test` se ejecutan los 5 escenarios de `login.feature` junto con los tests
 unitarios existentes, con resultado BUILD SUCCESS (7/7 tests, 0 fallos).
 
-![mvn test en verde](docs/capturas/mvn-test-verde.png)
+![mvn test en verde - ejecución](docs/capturas/mvn-test-verde-1.png)
+![mvn test en verde - BUILD SUCCESS](docs/capturas/mvn-test-verde-2.png)
 
 ### 4. Integración en el pipeline de CI
 No fue necesario modificar `ci.yml`: al ejecutarse `mvn test`, GitHub Actions corre
